@@ -1,0 +1,161 @@
+:root{
+--main-title-color:#FFFFFF;
+--second-titel-color:#303030;
+--main-text-color:#555555;
+--second-text-color:#9DA4BD;
+--accent-color:#FF6C00;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #A8C998;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* header */
+.nav-link{
+    color: #FFFFFF;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--accent-color);
+}
+.nav-contact{
+    color: #FFFFFF;
+}
+.nav-contact:hover,
+.nav-contact:focus{
+    color: var(--accent-color);
+}
+.nav-button{
+    color: #FFFFFF;
+}
+.nav-button:hover,
+.nav-button:focus{
+    color: var(--accent-color);
+}
+/* main */
+/* hero */
+.hero-link{
+    color: #303030;
+}
+.hero-link:hover,
+.hero-link:focus{
+    color: var(--accent-color);
+}
+.hero-slogan{
+    color: rgba(157, 164, 189, .6);
+}
+.hero-title{
+    color: var(--main-title-color);
+}
+.hero-description{
+    color: var(--second-text-color);
+}
+/* about us */
+.about-slogan{
+    color: rgba(157, 164, 189, .6);
+}
+.about-title{
+    color: var(--second-titel-color);
+}
+.about-description{
+    color: var(--main-text-color);
+}
+.about-button{
+    color: #303030;
+}
+.about-button:focus,
+.about-button:hover{
+    color: var(--accent-color);
+}
+/* price */
+.price-slogan{
+    color: rgba(157, 164, 189, .6);
+}
+.price-title{
+    color: var(--main-title-color);
+}
+.first-list{
+    color: var(--main-text-color);
+}
+.second-list{
+    color: var(--main-text-color);
+}
+.price-button{
+    color: #ffffff;
+}
+.price-button:hover,
+.price-button:focus{
+    color: var(--accent-color);
+}
+/* why we */
+.whywe-list{
+    color: #303030;
+}
+.whywe-slogan{
+    color: #303030;
+}
+.whywe-title{
+    color: var(--second-titel-color);
+}
+.whywe-description{
+    color: var(--main-text-color);
+}
+/* masters */
+.masters{
+    background-color: #F7F7F7;
+}
+.masters-slogan{
+    color: #303030;
+}
+.masters-title{
+    color: var(--second-titel-color);
+}
+.masters-name{
+    color: #303030;
+}
+.masters-job{
+    color: var(--accent-color);
+}
+/* galary */
+.galery-title{
+    visibility: hidden;
+}
+.galery-description{
+    color: #303030;
+}
+/* online */
+.online-title{
+    color: var(--main-title-color);
+}
+/* address */
+.contacts-title{
+    color: var(--main-title-color);
+}
+.address-link{
+    color: var(--second-text-color);
+}
+.address-link.mail{
+    text-decoration: underline;
+}
+.contacts-title-time{
+    color: #ffffff;
+}
+.contacts-time{
+    color: var(--second-text-color);
+}
+/* footer */
+.copyright{
+    color: var(--second-text-color);
+}
+.footer-link{
+    color: #303030;
+}
+.footer-link:hover,
+.footer-link:focus{
+    color: var(--accent-color);
+}
