@@ -7,6 +7,8 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     background: #A8C998;
 }
 ul{
@@ -17,6 +19,11 @@ a{
 }
 /* header */
 .nav-link{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+
     color: #FFFFFF;
 }
 .nav-link:hover,
@@ -24,6 +31,11 @@ a{
     color: var(--accent-color);
 }
 .nav-contact{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 .nav-contact:hover,
@@ -31,6 +43,13 @@ a{
     color: var(--accent-color);
 }
 .nav-button{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 .nav-button:hover,
@@ -40,6 +59,10 @@ a{
 /* main */
 /* hero */
 .hero-link{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
     color: #303030;
 }
 .hero-link:hover,
@@ -47,25 +70,67 @@ a{
     color: var(--accent-color);
 }
 .hero-slogan{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     color: rgba(157, 164, 189, .6);
 }
 .hero-title{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
     color: var(--main-title-color);
 }
 .hero-description{
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
     color: var(--second-text-color);
 }
 /* about us */
 .about-slogan{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     color: rgba(157, 164, 189, .6);
 }
 .about-title{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
     color: var(--second-titel-color);
 }
 .about-description{
     color: var(--main-text-color);
 }
+.about-description.fisrt{
+    font-size: 18px;
+    line-height: 1.67
+    letter-spacing: 0.02em;
+}
+.about-description.second{
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+}
 .about-button{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
     color: #303030;
 }
 .about-button:focus,
@@ -74,18 +139,37 @@ a{
 }
 /* price */
 .price-slogan{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     color: rgba(157, 164, 189, .6);
 }
 .price-title{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
     color: var(--main-title-color);
 }
-.first-list{
-    color: var(--main-text-color);
-}
+.first-list,
 .second-list{
-    color: var(--main-text-color);
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
 }
 .price-button{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
     color: #ffffff;
 }
 .price-button:hover,
@@ -94,15 +178,39 @@ a{
 }
 /* why we */
 .whywe-list{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
     color: #303030;
 }
+.result{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
 .whywe-slogan{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     color: #303030;
 }
 .whywe-title{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
     color: var(--second-titel-color);
 }
-.whywe-description{
+.whywe-description{font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
 /* masters */
@@ -110,15 +218,35 @@ a{
     background-color: #F7F7F7;
 }
 .masters-slogan{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     color: #303030;
 }
 .masters-title{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
     color: var(--second-titel-color);
 }
 .masters-name{
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: #303030;
 }
 .masters-job{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--accent-color);
 }
 /* galary */
@@ -126,33 +254,74 @@ a{
     visibility: hidden;
 }
 .galery-description{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     color: #303030;
 }
 /* online */
 .online-title{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
     color: var(--main-title-color);
 }
 /* address */
 .contacts-title{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
     color: var(--main-title-color);
 }
 .address-link{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
     color: var(--second-text-color);
+}
+.address-link:focus,
+.address-link:hover{
+    color: var(--accent-color);
 }
 .address-link.mail{
     text-decoration: underline;
 }
 .contacts-title-time{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     color: #ffffff;
 }
 .contacts-time{
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
     color: var(--second-text-color);
 }
 /* footer */
 .copyright{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
     color: var(--second-text-color);
 }
 .footer-link{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
     color: #303030;
 }
 .footer-link:hover,
