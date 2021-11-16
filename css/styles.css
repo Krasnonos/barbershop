@@ -172,10 +172,12 @@ button{
     color: var(--second-text-color);
 }
 /* about us */
-.about-section .conteiner{
-    display: flex;
+.about-section{
     padding-top: 139px;
     padding-bottom: 121px;
+}
+.about-section .conteiner{
+    display: flex;
 }
 .about-list{
     display: flex;
@@ -208,24 +210,72 @@ button{
     color: #303030;
 }
 /* price */
+.price-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.price.slogan{
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
 .price.title{
+    margin-bottom: 44px;
     color: var(--main-title-color);
+}
+.price-list{
+    display: flex;
+    margin-bottom: 50px;
+}
+.price-item{
+    display: flex;
+    justify-content: space-between;
+}
+.price-item:not(:last-child){
+    margin-bottom: 20px;
 }
 .first-list,
 .second-list{
+    width: 50%;
+    padding: 30px 40px;
     font-size: 18px;
     line-height: 1.67;
     letter-spacing: 0.02em;
     color: var(--second-text-color);
 }
+.price.button{
+    display: block;
+    margin: 0 auto;
+}
 /* why we */
+.whywe-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.whywe-section .conteiner{
+    display: flex;
+}
 .whywe-list{
+    outline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
     text-align: center;
     color: #303030;
 }
+.whywe-list .item{
+    width: 170px;
+    padding: 20px 24px;
+    background-color: #F7F7F7;
+}
+.whywe-list .item:nth-child(2n + 1){
+    margin-right: 30px;
+}
+.whywe-list .item:nth-last-child(-n + 2){
+    margin-top: 30px;
+} 
 .result{
     font-weight: 700;
     font-size: 42px;
@@ -234,6 +284,8 @@ button{
     letter-spacing: 0.05em;
 }
 .whywe.slogan{
+    margin-left: 80px;
+    margin-bottom: 20px;
     color: #303030;
 }
 .whywe-description{font-size: 18px;
