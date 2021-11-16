@@ -8,49 +8,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href=""><img src="./images/logo.jpg" alt="logo"></a>
-            <ul>
-                <li><a href="#aboutus" class="nav-link">О нас</a></li>
-                <li><a href="#price" class="nav-link">Услуги и цены</a></li>
-                <li><a href="#masters" class="nav-link">Мастера</a></li>
-                <li><a href="#contacts" class="nav-link">Контакты</a></li>
-            </ul>
-            <a href="tel:+380441111111" class="nav-contact">+38 044 111 11 11</a>
-            <button type="button" class="nav button">онлайн-запись</button>
-        </nav>
+        <div class="conteiner">
+            <nav class="header-nav">
+                <a href=""><img src="./images/logo.jpg" alt="logo"></a>
+                <ul class="nav-list">
+                    <li class="item"><a href="#aboutus" class="nav-link">О нас</a></li>
+                    <li class="item"><a href="#price" class="nav-link">Услуги и цены</a></li>
+                    <li class="item"><a href="#masters" class="nav-link">Мастера</a></li>
+                    <li class="item"><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+                <div class="contact-list">
+                    <a href="tel:+380441111111" class="nav-contact">+38 044 111 11 11</a>
+                    <button type="button" class="nav button">онлайн-запись</button>
+                </div>
+            </nav>
+        </div>
     </header>
     <main>
         <!-- hero -->
-        <section>
-            <ul>
-                <li><a href="https://www.youtube.com" class="hero-link">Youtube</a></li>
-                <li><a href="https://www.instagram.com" class="hero-link">Instagram</a></li>
-            </ul>
-            <div>
-                <p lang="en" class="hero-slogan">A hair salon for men in Kyiv</p>
-                <h1 lang="en" class="hero-title">BarberShop</h1>
-                <p class="hero-description">Мы эксперты в модных мужских стрижках. <br> Работаем быстро, осторожно и со вкусом.</p>
+        <section class="hero-section">
+            <div class="conteiner">
+                <ul class="hero-list">
+                    <li class="item"><a href="https://www.youtube.com" class="hero-link">Youtube</a></li>
+                    <li class="item"><a href="https://www.instagram.com" class="hero-link">Instagram</a></li>
+                </ul>
+                <div class="hero-right">
+                    <p lang="en" class="hero-slogan">A hair salon for men in Kyiv</p>
+                    <h1 lang="en" class="hero-title">BarberShop</h1>
+                    <p class="hero-description">Мы эксперты в модных мужских стрижках. <br> Работаем быстро, осторожно и со вкусом.</p>
+                </div>
             </div>
         </section>
         <!-- about us -->
-        <section>
-            <ul>
-                <li><img src="./images/img1-1.jpg" alt="мажет шею" width="270" height="445"></li>
-                <li><img src="./images/img1-2.jpg" alt="бреет шею" width="270" height="445"></li>
-            </ul>
-            <div>
-                <p id="aboutus" class="about slogan">О НАС</p>
-                <h2 class="about title">Лучший Барбершоп твоего города</h2>
-                <p class="about-description first">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
-                <p class="about-description second">Мы команда, которая никогда не останавливается на достигнутом 
-                и жаждет перемен. И когда ты попадешь в руки нашего мастера, 
-                то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
-            <button type="button" class="about button">онлайн-запись</button>
+        <section class="about-section">
+            <div class="conteiner">
+                <ul class="about-list">
+                    <li class="item"><img class="image" src="./images/img1-1.jpg" alt="мажет шею" width="270" height="445"></li>
+                    <li class="item"><img class="image" src="./images/img1-2.jpg" alt="бреет шею" width="270" height="445"></li>
+                </ul>
+                <div class="about-right">
+                    <p id="aboutus" class="about slogan">О НАС</p>
+                    <h2 class="about title">Лучший Барбершоп твоего города</h2>
+                    <p class="about-description first">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
+                    <p class="about-description second">Мы команда, которая никогда не останавливается на достигнутом 
+                    и жаждет перемен. И когда ты попадешь в руки нашего мастера, 
+                    то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
+                <button type="button" class="about button">онлайн-запись</button>
+                </div>
             </div>
         </section>
         <!-- price -->
